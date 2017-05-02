@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557EC8001EB90C030031DD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC7FF1EB90C030031DD05 /* AppDelegate.swift */; };
+		557EC8021EB90C030031DD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC8011EB90C030031DD05 /* ViewController.swift */; };
+		557EC8051EB90C030031DD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557EC8031EB90C030031DD05 /* Main.storyboard */; };
+		557EC8071EB90C030031DD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557EC8061EB90C030031DD05 /* Assets.xcassets */; };
+		557EC80A1EB90C030031DD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557EC8081EB90C030031DD05 /* LaunchScreen.storyboard */; };
+		557EC8151EB90C030031DD05 /* NutyriAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC8141EB90C030031DD05 /* NutyriAPITests.swift */; };
+		557EC8201EB90C030031DD05 /* NutyriAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC81F1EB90C030031DD05 /* NutyriAPIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557EC8111EB90C030031DD05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557EC7F41EB90C020031DD05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557EC7FB1EB90C020031DD05;
+			remoteInfo = NutyriAPI;
+		};
+		557EC81C1EB90C030031DD05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557EC7F41EB90C020031DD05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557EC7FB1EB90C020031DD05;
+			remoteInfo = NutyriAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		557EC7FC1EB90C020031DD05 /* NutyriAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutyriAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		557EC7FF1EB90C030031DD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		557EC8011EB90C030031DD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		557EC8041EB90C030031DD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		557EC8061EB90C030031DD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557EC8091EB90C030031DD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557EC80B1EB90C030031DD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557EC8101EB90C030031DD05 /* NutyriAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutyriAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557EC8141EB90C030031DD05 /* NutyriAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutyriAPITests.swift; sourceTree = "<group>"; };
+		557EC8161EB90C030031DD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557EC81B1EB90C030031DD05 /* NutyriAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutyriAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557EC81F1EB90C030031DD05 /* NutyriAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutyriAPIUITests.swift; sourceTree = "<group>"; };
+		557EC8211EB90C030031DD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557EC7F91EB90C020031DD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557EC80D1EB90C030031DD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557EC8181EB90C030031DD05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557EC7F31EB90C020031DD05 = {
+			isa = PBXGroup;
+			children = (
+				557EC7FE1EB90C020031DD05 /* NutyriAPI */,
+				557EC8131EB90C030031DD05 /* NutyriAPITests */,
+				557EC81E1EB90C030031DD05 /* NutyriAPIUITests */,
+				557EC7FD1EB90C020031DD05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557EC7FD1EB90C020031DD05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557EC7FC1EB90C020031DD05 /* NutyriAPI.app */,
+				557EC8101EB90C030031DD05 /* NutyriAPITests.xctest */,
+				557EC81B1EB90C030031DD05 /* NutyriAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557EC7FE1EB90C020031DD05 /* NutyriAPI */ = {
+			isa = PBXGroup;
+			children = (
+				557EC7FF1EB90C030031DD05 /* AppDelegate.swift */,
+				557EC8011EB90C030031DD05 /* ViewController.swift */,
+				557EC8031EB90C030031DD05 /* Main.storyboard */,
+				557EC8061EB90C030031DD05 /* Assets.xcassets */,
+				557EC8081EB90C030031DD05 /* LaunchScreen.storyboard */,
+				557EC80B1EB90C030031DD05 /* Info.plist */,
+			);
+			path = NutyriAPI;
+			sourceTree = "<group>";
+		};
+		557EC8131EB90C030031DD05 /* NutyriAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				557EC8141EB90C030031DD05 /* NutyriAPITests.swift */,
+				557EC8161EB90C030031DD05 /* Info.plist */,
+			);
+			path = NutyriAPITests;
+			sourceTree = "<group>";
+		};
+		557EC81E1EB90C030031DD05 /* NutyriAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557EC81F1EB90C030031DD05 /* NutyriAPIUITests.swift */,
+				557EC8211EB90C030031DD05 /* Info.plist */,
+			);
+			path = NutyriAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557EC7FB1EB90C020031DD05 /* NutyriAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557EC8241EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPI" */;
+			buildPhases = (
+				557EC7F81EB90C020031DD05 /* Sources */,
+				557EC7F91EB90C020031DD05 /* Frameworks */,
+				557EC7FA1EB90C020031DD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutyriAPI;
+			productName = NutyriAPI;
+			productReference = 557EC7FC1EB90C020031DD05 /* NutyriAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557EC80F1EB90C030031DD05 /* NutyriAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557EC8271EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPITests" */;
+			buildPhases = (
+				557EC80C1EB90C030031DD05 /* Sources */,
+				557EC80D1EB90C030031DD05 /* Frameworks */,
+				557EC80E1EB90C030031DD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557EC8121EB90C030031DD05 /* PBXTargetDependency */,
+			);
+			name = NutyriAPITests;
+			productName = NutyriAPITests;
+			productReference = 557EC8101EB90C030031DD05 /* NutyriAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557EC81A1EB90C030031DD05 /* NutyriAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557EC82A1EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPIUITests" */;
+			buildPhases = (
+				557EC8171EB90C030031DD05 /* Sources */,
+				557EC8181EB90C030031DD05 /* Frameworks */,
+				557EC8191EB90C030031DD05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557EC81D1EB90C030031DD05 /* PBXTargetDependency */,
+			);
+			name = NutyriAPIUITests;
+			productName = NutyriAPIUITests;
+			productReference = 557EC81B1EB90C030031DD05 /* NutyriAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557EC7F41EB90C020031DD05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Wang,Rongrong";
+				TargetAttributes = {
+					557EC7FB1EB90C020031DD05 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9VCQZ56KLT;
+						ProvisioningStyle = Automatic;
+					};
+					557EC80F1EB90C030031DD05 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9VCQZ56KLT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 557EC7FB1EB90C020031DD05;
+					};
+					557EC81A1EB90C030031DD05 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9VCQZ56KLT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 557EC7FB1EB90C020031DD05;
+					};
+				};
+			};
+			buildConfigurationList = 557EC7F71EB90C020031DD05 /* Build configuration list for PBXProject "NutyriAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 557EC7F31EB90C020031DD05;
+			productRefGroup = 557EC7FD1EB90C020031DD05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557EC7FB1EB90C020031DD05 /* NutyriAPI */,
+				557EC80F1EB90C030031DD05 /* NutyriAPITests */,
+				557EC81A1EB90C030031DD05 /* NutyriAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557EC7FA1EB90C020031DD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557EC80A1EB90C030031DD05 /* LaunchScreen.storyboard in Resources */,
+				557EC8071EB90C030031DD05 /* Assets.xcassets in Resources */,
+				557EC8051EB90C030031DD05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557EC80E1EB90C030031DD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557EC8191EB90C030031DD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557EC7F81EB90C020031DD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557EC8021EB90C030031DD05 /* ViewController.swift in Sources */,
+				557EC8001EB90C030031DD05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557EC80C1EB90C030031DD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557EC8151EB90C030031DD05 /* NutyriAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557EC8171EB90C030031DD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557EC8201EB90C030031DD05 /* NutyriAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557EC8121EB90C030031DD05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557EC7FB1EB90C020031DD05 /* NutyriAPI */;
+			targetProxy = 557EC8111EB90C030031DD05 /* PBXContainerItemProxy */;
+		};
+		557EC81D1EB90C030031DD05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557EC7FB1EB90C020031DD05 /* NutyriAPI */;
+			targetProxy = 557EC81C1EB90C030031DD05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		557EC8031EB90C030031DD05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557EC8041EB90C030031DD05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		557EC8081EB90C030031DD05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557EC8091EB90C030031DD05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557EC8221EB90C030031DD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557EC8231EB90C030031DD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557EC8251EB90C030031DD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VCQZ56KLT;
+				INFOPLIST_FILE = NutyriAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		557EC8261EB90C030031DD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9VCQZ56KLT;
+				INFOPLIST_FILE = NutyriAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		557EC8281EB90C030031DD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9VCQZ56KLT;
+				INFOPLIST_FILE = NutyriAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutyriAPI.app/NutyriAPI";
+			};
+			name = Debug;
+		};
+		557EC8291EB90C030031DD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9VCQZ56KLT;
+				INFOPLIST_FILE = NutyriAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutyriAPI.app/NutyriAPI";
+			};
+			name = Release;
+		};
+		557EC82B1EB90C030031DD05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9VCQZ56KLT;
+				INFOPLIST_FILE = NutyriAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NutyriAPI;
+			};
+			name = Debug;
+		};
+		557EC82C1EB90C030031DD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9VCQZ56KLT;
+				INFOPLIST_FILE = NutyriAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NutyriAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557EC7F71EB90C020031DD05 /* Build configuration list for PBXProject "NutyriAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557EC8221EB90C030031DD05 /* Debug */,
+				557EC8231EB90C030031DD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557EC8241EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557EC8251EB90C030031DD05 /* Debug */,
+				557EC8261EB90C030031DD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		557EC8271EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557EC8281EB90C030031DD05 /* Debug */,
+				557EC8291EB90C030031DD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		557EC82A1EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557EC82B1EB90C030031DD05 /* Debug */,
+				557EC82C1EB90C030031DD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 557EC7F41EB90C020031DD05 /* Project object */;
+}
