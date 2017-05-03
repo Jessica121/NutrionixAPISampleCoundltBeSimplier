@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55277FC71EB9790E0084B926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55277FC61EB9790E0084B926 /* ViewController.swift */; };
+		55277FC91EB97C4A0084B926 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55277FC81EB97C4A0084B926 /* FoodModel.swift */; };
+		55277FD11EBA50630084B926 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55277FD01EBA50630084B926 /* FoodCell.swift */; };
 		557EC8001EB90C030031DD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC7FF1EB90C030031DD05 /* AppDelegate.swift */; };
-		557EC8021EB90C030031DD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC8011EB90C030031DD05 /* ViewController.swift */; };
+		557EC8021EB90C030031DD05 /* referDBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557EC8011EB90C030031DD05 /* referDBVC.swift */; };
 		557EC8051EB90C030031DD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557EC8031EB90C030031DD05 /* Main.storyboard */; };
 		557EC8071EB90C030031DD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557EC8061EB90C030031DD05 /* Assets.xcassets */; };
 		557EC80A1EB90C030031DD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557EC8081EB90C030031DD05 /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55277FC61EB9790E0084B926 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55277FC81EB97C4A0084B926 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		55277FD01EBA50630084B926 /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodCell.swift; path = ../FoodCell.swift; sourceTree = "<group>"; };
 		557EC7FC1EB90C020031DD05 /* NutyriAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutyriAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557EC7FF1EB90C030031DD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		557EC8011EB90C030031DD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		557EC8011EB90C030031DD05 /* referDBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = referDBVC.swift; sourceTree = "<group>"; };
 		557EC8041EB90C030031DD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		557EC8061EB90C030031DD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		557EC8091EB90C030031DD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,12 +103,15 @@
 		557EC7FE1EB90C020031DD05 /* NutyriAPI */ = {
 			isa = PBXGroup;
 			children = (
+				55277FD01EBA50630084B926 /* FoodCell.swift */,
 				557EC7FF1EB90C030031DD05 /* AppDelegate.swift */,
-				557EC8011EB90C030031DD05 /* ViewController.swift */,
+				55277FC81EB97C4A0084B926 /* FoodModel.swift */,
+				55277FC61EB9790E0084B926 /* ViewController.swift */,
 				557EC8031EB90C030031DD05 /* Main.storyboard */,
 				557EC8061EB90C030031DD05 /* Assets.xcassets */,
 				557EC8081EB90C030031DD05 /* LaunchScreen.storyboard */,
 				557EC80B1EB90C030031DD05 /* Info.plist */,
+				557EC8011EB90C030031DD05 /* referDBVC.swift */,
 			);
 			path = NutyriAPI;
 			sourceTree = "<group>";
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				557EC8021EB90C030031DD05 /* ViewController.swift in Sources */,
+				55277FC71EB9790E0084B926 /* ViewController.swift in Sources */,
+				557EC8021EB90C030031DD05 /* referDBVC.swift in Sources */,
+				55277FD11EBA50630084B926 /* FoodCell.swift in Sources */,
 				557EC8001EB90C030031DD05 /* AppDelegate.swift in Sources */,
+				55277FC91EB97C4A0084B926 /* FoodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VCQZ56KLT;
 				INFOPLIST_FILE = NutyriAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9VCQZ56KLT;
 				INFOPLIST_FILE = NutyriAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rw.NutyriAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +530,7 @@
 				557EC8261EB90C030031DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		557EC8271EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				557EC8291EB90C030031DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		557EC82A1EB90C030031DD05 /* Build configuration list for PBXNativeTarget "NutyriAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				557EC82C1EB90C030031DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
