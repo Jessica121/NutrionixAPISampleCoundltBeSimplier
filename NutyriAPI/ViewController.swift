@@ -131,6 +131,7 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
         let food2 = food[(indexPath as NSIndexPath).row]
         // Configure food name labels
         cell.foodLabel.text = food2.name
+        cell.calLabel.text = String(food2.cal)+" cals"
         return cell
     }
 

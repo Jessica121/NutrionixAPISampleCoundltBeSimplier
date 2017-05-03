@@ -38,19 +38,28 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ng-yU-P8T">
-                                                    <rect key="frame" x="8" y="14" width="414" height="21"/>
+                                                    <rect key="frame" x="8" y="0.0" width="320" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calories" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HD0-Sk-a3I">
+                                                    <rect key="frame" x="8" y="22" width="49.5" height="16"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                    <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="6Ng-yU-P8T" firstAttribute="top" secondItem="IoI-Sb-AxI" secondAttribute="topMargin" constant="6" id="GyT-RD-uQS"/>
+                                                <constraint firstItem="6Ng-yU-P8T" firstAttribute="top" secondItem="IoI-Sb-AxI" secondAttribute="topMargin" constant="-8" id="GyT-RD-uQS"/>
                                                 <constraint firstItem="6Ng-yU-P8T" firstAttribute="leading" secondItem="IoI-Sb-AxI" secondAttribute="leadingMargin" id="MVP-HT-jtg"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="HD0-Sk-a3I" secondAttribute="leading" id="Sus-Da-FDe"/>
                                                 <constraint firstItem="6Ng-yU-P8T" firstAttribute="width" secondItem="IoI-Sb-AxI" secondAttribute="width" id="cdo-Wv-Hyh"/>
+                                                <constraint firstItem="HD0-Sk-a3I" firstAttribute="top" secondItem="6Ng-yU-P8T" secondAttribute="bottom" constant="1" id="zeo-ae-jub"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="calLabel" destination="HD0-Sk-a3I" id="9da-fd-Uf7"/>
                                             <outlet property="foodLabel" destination="6Ng-yU-P8T" id="8G2-e0-cHY"/>
                                         </connections>
                                     </tableViewCell>
