@@ -41,14 +41,14 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
                                 let cal = foodDict["nf_calories"] as Any
                                     let calStr = cal as! Double
                                 let fat = foodDict["nf_total_fat"] as Any
-                                    let fatStr = fat as? Double
+                                    let fatStr = fat as? Double ?? 0.0
                                     print("calories is")
                                     print(calStr)
                                     print("fat is ")
                                     print(fatStr as Any)
                                     print("name of the food is")
                                     print(name as Any)
-                                    food.append(FoodAndItsResults(name:name!,fat:fatStr!,cal:calStr))
+                                    food.append(FoodAndItsResults(name:name!,fat:fatStr,cal:calStr))
                                 print(food)
                                 print("🍴")
                                 }else {
